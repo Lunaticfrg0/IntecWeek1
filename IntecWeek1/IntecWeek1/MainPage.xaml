@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IntecWeek1.MainPage"
+             BackgroundColor="White">
+
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <!-- Place new controls here -->
+
+
+        <Entry x:Name="Entrada" 
+               Keyboard="Default"/>
+        
+        <StackLayout 
+            Orientation="Horizontal"
+            HorizontalOptions="CenterAndExpand">
+            <Button Text="Rojo"
+                    BackgroundColor="Red"
+                    x:Name="Rojo"
+                    Clicked="ColorChanger"
+                    />
+            <Button Text="Twitch"
+                    BackgroundColor="#6441A4"
+                    x:Name="Twitch"
+                    Clicked="ColorChanger"
+                    />
+            <Button Text="Azul"
+                    BackgroundColor="Blue"
+                    x:Name="Azul"
+                    Clicked="ColorChanger"
+                    />
+        </StackLayout >
+        <Label 
+           x:Name="Nombre"
+           HorizontalOptions="Center"
+           VerticalOptions="End" 
+           />
+
+
+    </StackLayout>
+
+
+
+
+    <!--<Entry         
+                       Placeholder="Name"
+                       Keyboard="Default"/>-->
+    <!--<Entry 
+                       Keyboard="Default"
+                       Placeholder="Password "
+                       IsPassword="True"/>-->
+
+
+    <!--<Button Text="Translate"
+                TextColor="White"
+                BackgroundColor="#FF3131"
+                Clicked="OpenBotton"
+                BorderWidth="1"
+                CornerRadius="0"
+                />
+        <Button Text="Llamar a 849-207-8891"
+                TextColor="White"
+                BackgroundColor="#FF3131"
+                Clicked="OpenBotton"
+                 BorderWidth="1"
+                CornerRadius="0"
+                />-->
+
+</ContentPage>

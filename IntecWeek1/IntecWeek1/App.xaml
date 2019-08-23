@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="IntecWeek1.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="MainLabelStyle" TargetType="Label" >
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style  TargetType="Button">
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="8"/>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
